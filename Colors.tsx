@@ -5,13 +5,11 @@ import { FiSun, FiMoon } from 'react-icons/fi';
 const Colors = () => {
   const [theme, setTheme] = useState({ mode: 'light' });
   const colorScheme = [
-    // 'enamel-blue',
-    // 'orange-fresh',
-    // 'green-military',
-    'color-scheme1',
-    'color-scheme2',
-    'color-scheme3',
-    'color-scheme4'
+    'orange-soda',
+    'emerald-wave',
+    'byzantine-blue',
+    'blue-opulence',
+    'blaze-orange'
   ];
   /** First init */
   useEffect(() => {
