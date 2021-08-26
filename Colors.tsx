@@ -15,11 +15,11 @@ const Colors = () => {
   useEffect(() => {
     document.documentElement.setAttribute('theme', 'mimiti');
     document.documentElement.setAttribute('theme-mode', 'light');
-    document.body.setAttribute('theme-color', 'enamel-blue');
+    document.body.setAttribute('theme-color', 'orange-soda');
     document.documentElement.setAttribute('theme-fontsize', 'medium');
 
     setTimeout(() => {
-      document.body.setAttribute('orange-soda', 'rounded');
+      document.body.setAttribute('theme-shape', 'rounded');
       document.body.classList.add('eui', 'theme');
     }, 1000);
   }, []);
