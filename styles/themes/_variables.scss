@@ -5,13 +5,11 @@
  * ===================
  **/
 $eui-theme-colors: (
-  'enamel-blue': map-get($enamel-blue, 'colors'),
-  'orange-fresh': map-get($orange-fresh, 'colors'),
-  'green-military': map-get($green-military, 'colors'),
-  'color-scheme1': map-get($color-scheme1, 'colors'),
-  'color-scheme2': map-get($color-scheme2, 'colors'),
-  'color-scheme3': map-get($color-scheme3, 'colors'),
-  'color-scheme4': map-get($color-scheme4, 'colors')
+  'orange-soda': map-get($orange-soda, 'colors'),
+  'emerald-wave': map-get($emerald-wave, 'colors'),
+  'byzantine-blue': map-get($byzantine-blue, 'colors'),
+  'blue-opulence': map-get($blue-opulence, 'colors'),
+  'blaze-orange': map-get($blaze-orange, 'colors')
 ) !default;
 
 /** Dark Mode/Light color black and white
@@ -19,13 +17,11 @@ $eui-theme-colors: (
  *  ex: di theme color enamel-blue maka di theme color mode key nya enamel-blue juga
 */
 $eui-theme-colors-mode: (
-  'enamel-blue': map-get($enamel-blue, 'mode'),
-  'orange-fresh': map-get($orange-fresh, 'mode'),
-  'green-military': map-get($green-military, 'mode'),
-  'color-scheme1': map-get($color-scheme1, 'mode'),
-  'color-scheme2': map-get($color-scheme2, 'mode'),
-  'color-scheme3': map-get($color-scheme3, 'mode'),
-  'color-scheme4': map-get($color-scheme4, 'mode')
+  'orange-soda': map-get($orange-soda, 'mode'),
+  'emerald-wave': map-get($emerald-wave, 'mode'),
+  'byzantine-blue': map-get($byzantine-blue, 'mode'),
+  'blue-opulence': map-get($blue-opulence, 'mode'),
+  'blaze-orange': map-get($blaze-orange, 'mode')
 ) !default;
 /** END THEME COLORS & MODE !! **/
 
