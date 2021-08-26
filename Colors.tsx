@@ -15,7 +15,7 @@ const Colors = () => {
   useEffect(() => {
     document.documentElement.setAttribute('theme', 'mimiti');
     document.documentElement.setAttribute('theme-mode', 'light');
-    document.body.setAttribute('theme-color', 'enamel-blue');
+    document.body.setAttribute('theme-color', 'orange-soda');
     document.documentElement.setAttribute('theme-fontsize', 'medium');
 
     setTimeout(() => {
