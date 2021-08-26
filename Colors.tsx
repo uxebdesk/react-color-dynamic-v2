@@ -46,7 +46,7 @@ const Colors = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
-            <ul className="navbar-nav me-auto mb-2 mb-md-0">
+            <ul className="navbar-nav mb-2 mb-md-0">
               {/* <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
                   Home
@@ -55,7 +55,7 @@ const Colors = () => {
              */}
             </ul>
             <form
-              className="d-flex"
+              className="d-flex ms-auto"
               data-dashlane-rid="10849129c5b1bbed"
               data-form-type=""
             >
