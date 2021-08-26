@@ -19,7 +19,7 @@ const Colors = () => {
     document.documentElement.setAttribute('theme-fontsize', 'medium');
 
     setTimeout(() => {
-      document.body.setAttribute('theme-shape', 'rounded');
+      document.body.setAttribute('orange-soda', 'rounded');
       document.body.classList.add('eui', 'theme');
     }, 1000);
   }, []);
