@@ -1,0 +1,63 @@
+export const COLORS_HUE_LEVEL = [
+  1,
+  5,
+  10,
+  25,
+  50,
+  75,
+  100,
+  150,
+  200,
+  300,
+  400,
+  500,
+  600,
+  700,
+  750,
+  800,
+  900
+];
+export const COLORS_GROUP = [
+  {
+    name: 'black',
+    colors: ['black']
+  },
+  {
+    name: 'base',
+    colors: [
+      'red',
+      'yellow',
+      'blue',
+      'orange',
+      'green',
+      'purple',
+      'green-yellow',
+      'teal'
+    ]
+  },
+  {
+    name: 'main',
+    colors: ['primary', 'secondary', 'tertiary', 'accent']
+  },
+  {
+    name: 'state',
+    colors: ['success', 'warning', 'danger', 'info']
+  },
+  {
+    name: 'sentiment',
+    colors: ['neutral', 'positive', 'negative']
+  },
+  {
+    name: 'emotion',
+    colors: [
+      'joy',
+      'trust',
+      'fear',
+      'surprise',
+      'sadness',
+      'anger',
+      'disgust',
+      'anticipation'
+    ]
+  }
+];
