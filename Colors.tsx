@@ -142,7 +142,7 @@ const Colors = () => {
                     return (
                       <div className="color">
                         {color !== 'black' && (
-                          <p className="text-muted text-small mt-3 mb-2 text-capitalize">
+                          <p className="text-muted text-small mt-3 mb-0 text-capitalize">
                             {color} color hue
                           </p>
                         )}
