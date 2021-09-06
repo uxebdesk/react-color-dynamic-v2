@@ -9,7 +9,8 @@ const Colors = () => {
     'emerald-wave',
     'byzantine-blue',
     'blue-opulence',
-    'blaze-orange'
+    'blaze-orange',
+    'blaze-orange2'
   ];
   /** First init */
   useEffect(() => {

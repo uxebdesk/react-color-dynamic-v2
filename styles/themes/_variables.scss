@@ -9,7 +9,8 @@ $eui-theme-colors: (
   'emerald-wave': map-get($emerald-wave, 'colors'),
   'byzantine-blue': map-get($byzantine-blue, 'colors'),
   'blue-opulence': map-get($blue-opulence, 'colors'),
-  'blaze-orange': map-get($blaze-orange, 'colors')
+  'blaze-orange': map-get($blaze-orange, 'colors'),
+  'blaze-orange2': map-get($blaze-orange2, 'colors')
 ) !default;
 
 /** Dark Mode/Light color black and white
@@ -21,7 +22,8 @@ $eui-theme-colors-mode: (
   'emerald-wave': map-get($emerald-wave, 'mode'),
   'byzantine-blue': map-get($byzantine-blue, 'mode'),
   'blue-opulence': map-get($blue-opulence, 'mode'),
-  'blaze-orange': map-get($blaze-orange, 'mode')
+  'blaze-orange': map-get($blaze-orange, 'mode'),
+  'blaze-orange2': map-get($blaze-orange2, 'mode')
 ) !default;
 /** END THEME COLORS & MODE !! **/
 
