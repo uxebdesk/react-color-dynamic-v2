@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { COLORS_GROUP, COLORS_HUE_LEVEL } from './config/color.config';
-import { FiSun, FiMoon } from 'react-icons/fi';
 
 const Colors = () => {
   const [theme, setTheme] = useState({ mode: 'light' });
@@ -10,7 +9,8 @@ const Colors = () => {
     'byzantine-blue',
     'blue-opulence',
     'blaze-orange',
-    'blaze-orange2'
+    'blaze-orange2',
+    'military1',
   ];
   /** First init */
   useEffect(() => {
@@ -25,11 +25,11 @@ const Colors = () => {
     }, 1000);
   }, []);
 
-  const onChangeColorScheme = e => {
+  const onChangeColorScheme = (e) => {
     document.body.setAttribute('theme-color', e.target.value);
   };
 
-  const onChangeToggleTheme = th => {
+  const onChangeToggleTheme = (th) => {
     setTheme({ ...theme, mode: th });
     document.documentElement.setAttribute('theme-mode', th);
   };
@@ -59,7 +59,7 @@ const Colors = () => {
               data-form-type=""
             >
               <select
-                onChange={e => onChangeColorScheme(e)}
+                onChange={(e) => onChangeColorScheme(e)}
                 className="browser-default custom-select"
               >
                 {colorScheme.map((scheme, key) => (
@@ -78,9 +78,9 @@ const Colors = () => {
                       ? 'btn-primary'
                       : 'btn-outline-primary'
                   }`}
-                  onClick={e => onChangeToggleTheme('light')}
+                  onClick={(e) => onChangeToggleTheme('light')}
                 >
-                  <FiSun />
+                  light
                 </button>
                 <button
                   type="button"
@@ -89,9 +89,9 @@ const Colors = () => {
                       ? 'btn-primary'
                       : 'btn-outline-primary'
                   }`}
-                  onClick={e => onChangeToggleTheme('dark')}
+                  onClick={(e) => onChangeToggleTheme('dark')}
                 >
-                  <FiMoon />
+                  Dark
                 </button>
               </div>
             </form>
@@ -126,7 +126,7 @@ const Colors = () => {
                               className="color-hue text-capitalize py-4"
                               style={{
                                 background: `var(--${color}-500)`,
-                                color: `var(--${color}-500-cc)`
+                                color: `var(--${color}-500-cc)`,
                               }}
                             >
                               {color}
@@ -157,7 +157,7 @@ const Colors = () => {
                                   }
                                   style={{
                                     background: `var(--${color}-${level})`,
-                                    color: `var(--${color}-${level}-cc)`
+                                    color: `var(--${color}-${level}-cc)`,
                                   }}
                                 >
                                   {level}

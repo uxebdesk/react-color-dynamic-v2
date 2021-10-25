@@ -10,7 +10,8 @@ $eui-theme-colors: (
   'byzantine-blue': map-get($byzantine-blue, 'colors'),
   'blue-opulence': map-get($blue-opulence, 'colors'),
   'blaze-orange': map-get($blaze-orange, 'colors'),
-  'blaze-orange2': map-get($blaze-orange2, 'colors')
+  'blaze-orange2': map-get($blaze-orange2, 'colors'),
+  'military1': map-get($military1, 'colors'),
 ) !default;
 
 /** Dark Mode/Light color black and white
@@ -23,7 +24,8 @@ $eui-theme-colors-mode: (
   'byzantine-blue': map-get($byzantine-blue, 'mode'),
   'blue-opulence': map-get($blue-opulence, 'mode'),
   'blaze-orange': map-get($blaze-orange, 'mode'),
-  'blaze-orange2': map-get($blaze-orange2, 'mode')
+  'blaze-orange2': map-get($blaze-orange2, 'mode'),
+  'military1': map-get($military1, 'mode'),
 ) !default;
 /** END THEME COLORS & MODE !! **/
 
@@ -34,7 +36,7 @@ $eui-theme-colors-mode: (
 $eui-theme-font: (
   'roboto': '',
   'ubuntu': '',
-  'arial': ''
+  'arial': '',
 ) !default;
 
 /**
@@ -49,7 +51,7 @@ $eui-theme-font-sizing: (
   'large': '16px',
   'big': '18px',
   'huge': '21px',
-  'massive': '23px'
+  'massive': '23px',
 ) !default;
 
 /** COLORED HUE */
@@ -65,7 +67,7 @@ $percentage-color-hue-lighten-light: (
   '200': 60%,
   '300': 40%,
   '350': 30%,
-  '400': 20%
+  '400': 20%,
 ) !default;
 
 $percentage-color-hue-darken-light: (
@@ -73,7 +75,7 @@ $percentage-color-hue-darken-light: (
   '700': 40%,
   '750': 50%,
   '800': 60%,
-  '900': 80%
+  '900': 80%,
 ) !default;
 
 $percentage-color-hue-lighten-dark: (
@@ -88,7 +90,7 @@ $percentage-color-hue-lighten-dark: (
   '200': 60%,
   '300': 40%,
   '350': 30%,
-  '400': 20%
+  '400': 20%,
 ) !default;
 
 $percentage-color-hue-darken-dark: (
@@ -96,7 +98,7 @@ $percentage-color-hue-darken-dark: (
   '700': 40%,
   '750': 50%,
   '800': 60%,
-  '900': 80%
+  '900': 80%,
 ) !default;
 
 /** BLACK HUE */
@@ -118,7 +120,7 @@ $percentage-black-hue-light: (
   '700': 22%,
   '750': 19.25%,
   '800': 11%,
-  '900': 0%
+  '900': 0%,
 ) !default;
 
 $percentage-black-hue-dark: (
@@ -137,5 +139,5 @@ $percentage-black-hue-dark: (
   '700': 70%,
   '750': 75%,
   '800': 90%,
-  '900': 100%
+  '900': 100%,
 ) !default;
