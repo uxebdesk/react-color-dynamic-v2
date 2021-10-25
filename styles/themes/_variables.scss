@@ -12,6 +12,7 @@ $eui-theme-colors: (
   'blaze-orange': map-get($blaze-orange, 'colors'),
   'blaze-orange2': map-get($blaze-orange2, 'colors'),
   'military1': map-get($military1, 'colors'),
+  'military2': map-get($military2, 'colors'),
 ) !default;
 
 /** Dark Mode/Light color black and white
@@ -26,6 +27,7 @@ $eui-theme-colors-mode: (
   'blaze-orange': map-get($blaze-orange, 'mode'),
   'blaze-orange2': map-get($blaze-orange2, 'mode'),
   'military1': map-get($military1, 'mode'),
+  'military2': map-get($military2, 'mode'),
 ) !default;
 /** END THEME COLORS & MODE !! **/
 

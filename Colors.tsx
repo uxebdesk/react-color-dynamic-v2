@@ -11,6 +11,7 @@ const Colors = () => {
     'blaze-orange',
     'blaze-orange2',
     'military1',
+    'military2',
   ];
   /** First init */
   useEffect(() => {
